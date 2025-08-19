@@ -41,5 +41,5 @@ public class MoneyTransferTest {
         assertAll(() -> dashboardPage.checkCardBalance(firstCardInfo, expectedBalanceFirstCard),
                 () -> dashboardPage.checkCardBalance(secondCardInfo, expectedBalanceSecondCard));
     }
-    
+
 }
